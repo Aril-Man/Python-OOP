@@ -26,10 +26,16 @@ class C(A):
         super(C, self).foo()
 
 
-class D(B, C):
+class D(B):
     def foo(self):
         print("D")
         super(D, self).foo()
 
-d = D()
-d.foo()
+# d = D()
+# d.foo()
+
+# a = A()
+# a.foo()
+
+c = C()
+c.foo()
