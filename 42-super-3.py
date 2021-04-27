@@ -31,11 +31,11 @@ class D(B):
         print("D")
         super(D, self).foo()
 
-# d = D()
-# d.foo()
+d = D()
+d.foo()
 
-# a = A()
-# a.foo()
+a = A()
+a.foo()
 
 c = C()
 c.foo()

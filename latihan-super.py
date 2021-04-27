@@ -1,4 +1,7 @@
+# Program Siswa
+
 class Siswa:
+    
     def __init__(self, nama, rombel):
         self.nama = nama
         self.rombel = rombel
@@ -17,5 +20,5 @@ class Mmd(Siswa):
         super().cetakInfo()
 
 
-siswa1 = Rpl("azriel")
-siswa2 = Mmd("Ragetha")
+siswa1 = Rpl("Azriel Fauzi Hermansyah")
+siswa2 = Mmd("Ragetha Prameswari Kirana")
